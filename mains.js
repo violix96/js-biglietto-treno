@@ -39,3 +39,6 @@ if(UserAge < 18) {
 // Calcolo del prezzo finale del biglietto sottraendo lo sconto dal prezzo di partenza.
 
 const PrezzoFinale = StartingPrice - sconto
+
+// Stampa il prezzo finale nel log della console del browser.
+console.log (PrezzoFinale.toFixed(2))

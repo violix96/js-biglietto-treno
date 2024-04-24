@@ -35,3 +35,7 @@ if(UserAge < 18) {
     sconto = 0;
     console.log ("Non è stato applicato alcuno sconto, il prezzo del biglietto è:");
 }
+
+// Calcolo del prezzo finale del biglietto sottraendo lo sconto dal prezzo di partenza.
+
+const PrezzoFinale = StartingPrice - sconto

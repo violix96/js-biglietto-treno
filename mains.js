@@ -42,3 +42,7 @@ const PrezzoFinale = StartingPrice - sconto
 
 // Stampa il prezzo finale nel log della console del browser.
 console.log (PrezzoFinale.toFixed(2))
+
+// Stampa il prezzo del biglietto all'interno della pagina html.
+
+currentElement.innerHTML = "Il prezzo del biglietto è: " + PrezzoFinale.toFixed(2) + " euro";

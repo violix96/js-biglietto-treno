@@ -12,3 +12,8 @@ let currentText = currentElement.innerHTML;
 const ChilometriDaPercorrere = Number(prompt("Inserire il numero di Km da percorrere: "))
 
 const UserAge = Number(prompt("Inserire la propria età: "));
+
+// Calcola il prezzo di partenza basato sui chilometri inseriti.
+
+const StartingPrice = ChilometriDaPercorrere * 0.21;
+let sconto
